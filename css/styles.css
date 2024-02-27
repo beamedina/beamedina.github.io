@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(172, 135, 199);
+
+}
+h1 {
+    color:indigo;
+    font-style: italic;
+    text-align: left;
+    width: 400px;
+    border-width: 400px;
+    border-top: black solid;
+    border-bottom: black solid;
+    border-left: black dotted;
+    border-right: #000 dotted;
+    border-radius: 40px 25px;
+    
+
+}
+p{
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+}
+
+ol {
+    color: #000;
+    font-size: 17px;
+    font-weight: 549;
+    text-align: left;
+}
+
+img{
+     /* width: 200px: ;   = largura*/ 
+    height: 200px ; /*altura*/
+} 
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
