@@ -1,19 +1,21 @@
 body{
     background-color: rgb(172, 135, 199);
+    margin: 20px;
 
 }
 h1 {
     color:indigo;
     font-style: italic;
-    text-align: left;
-    width: 400px;
-    border-width: 400px;
+    text-align: center;
+    width: 1000px;
+    /* border-width: 400px;
     border-top: black solid;
     border-bottom: black solid;
     border-left: black dotted;
     border-right: #000 dotted;
-    border-radius: 40px 25px;
-    
+    border-radius: 30px 15px;
+    padding: 13px;
+      */
 
 }
 p{
@@ -37,4 +39,8 @@ img{
 a{
     text-decoration: none;
     font-size: 20px;
+}
+
+div{
+    color: blue;
 }
