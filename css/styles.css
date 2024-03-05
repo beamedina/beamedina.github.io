@@ -7,7 +7,7 @@ h1 {
     color:indigo;
     font-style: italic;
     text-align: center;
-    width: 1000px;
+    width: 500px;
     /* border-width: 400px;
     border-top: black solid;
     border-bottom: black solid;
@@ -29,6 +29,8 @@ ol {
     font-size: 17px;
     font-weight: 549;
     text-align: left;
+    
+
 }
 
 img{
@@ -42,5 +44,35 @@ a{
 }
 
 div{
-    color: blue;
+    border: 5px double;
+    margin-bottom: 10px;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(130, 87, 163);
+}
+
+#invocacao{
+    background-color: rgb(130, 87, 163);
+    width: 35%;
+}
+
+#naoNaoOlhe{
+    background-color: rgb(130, 87, 163);
+    width: 35%;
+}
+
+#sorria{
+    background-color: rgb(130, 87, 163);
+    width: 35%;
+}
+
+#hereditario{
+    background-color: rgb(130, 87, 163);
+    width: 35%;
+}
+
+iframe {
+    margin: auto;
+    display: block;
 }
