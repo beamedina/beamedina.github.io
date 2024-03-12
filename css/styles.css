@@ -1,5 +1,5 @@
 body{
-    background-color: #714D85;
+    background-color: black;
     margin: 20px;
 
 }
@@ -21,14 +21,16 @@ h1 {
 
 }
 p{
-    color: #FAF4FF;
+    color: #ffffff;
     font-size: 20px;
     text-align: left;
     margin: auto;
+    text-align: center;
+    line-height: 300%;
 }
 
 ol {
-    color: #000;
+    color: #ffffff;
     font-size: 17px;
     font-weight: 549;
     text-align: left;
@@ -51,19 +53,23 @@ a{
     border-radius: 20px;
     width: max-content;
     padding: 0 10px;
-    margin: 10px ;
+    margin: 10px auto;
     background-color: #302A33;
+    margin-bottom: 10px;
     
 }
 
 div{
-    border: 5px double;
+    border: 5px double white;
     margin-bottom: 50px;
     padding: 50px;
     text-align: center;
-    margin: 0 auto;
-    background-color: rgb(130, 87, 163);
+    margin: 10px auto;
+    background-image: url('../img/fundoterror.png');
     border-radius: 20px;
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-attachment: fixed;
 }
 
 #invocacao{
@@ -106,4 +112,11 @@ span{
     font-size: 20px;
     text-align: left;
     margin: auto;
+}
+
+
+a:hover {
+    background-color: white; 
+    color: #000;
+    transform: scale(1.2);
 }
