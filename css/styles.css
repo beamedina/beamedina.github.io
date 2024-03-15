@@ -121,3 +121,17 @@ a:hover {
     color: #000;
     transform: scale(1.2);
 }
+
+footer{
+    background-color: #0f0f0f;
+    bottom: 0;
+    position: absolute;
+    width: 98vw;
+    
+
+}
+
+#foo{
+    background-color: n;
+    height: 50px;
+}
