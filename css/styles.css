@@ -44,21 +44,6 @@ img{
     display: block;
 } 
 
-a{
-    color: #FAF4FF;
-    text-decoration: none;
-    font-size: 20px;
-    display: block;
-    border: solid #302A33;
-    border-radius: 20px;
-    width: max-content;
-    padding: 0 10px;
-    margin: 10px auto;
-    background-color: #302A33;
-    margin-bottom: 10px;
-    
-    
-}
 
 div{
     border: 5px double white;
@@ -116,7 +101,7 @@ span{
 }
 
 
-a:hover {
+.aBotao:hover {
     background-color: white; 
     color: #000;
     transform: scale(1.2);
@@ -127,11 +112,30 @@ footer{
     bottom: 0;
     position: absolute;
     width: 98vw;
+    position: fixed;i
     
 
 }
 
-#foo{
-    background-color: n;
-    height: 50px;
+.aBotao{
+    color: #FAF4FF;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    border: solid #302A33;
+    border-radius: 20px;
+    width: max-content;
+    padding: 0 10px;
+    margin: 10px auto;
+    background-color: #302A33;
+    margin-bottom: 10px;
+}
+
+.ancorinhas{
+    color: #FAF4FF;
+}
+
+
+nav{
+    margin-top: 50px;
 }
