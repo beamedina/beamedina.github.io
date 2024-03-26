@@ -1,6 +1,10 @@
+ * {
+    padding: 0;
+    margin: 0;
+ }
 body{
     background-color: black;
-    margin: 20px;
+    margin: 0;
 
 }
 h1 {
@@ -20,13 +24,31 @@ h1 {
       */
 
 }
+
+.titulo1{
+    margin-top: 110px;
+}
+
+
+
+
 p{
     color: #ffffff;
     font-size: 20px;
     text-align: left;
     margin: auto;
     text-align: center;
-    line-height: 300%;
+    max-width: 1200px;
+    margin-top: 40px;
+    /* line-height: ; */
+}
+
+#pagina{
+    margin-top: 120px;
+}
+
+#pagina2{
+    margin-top: 10px;
 }
 
 ol {
@@ -34,21 +56,29 @@ ol {
     font-size: 17px;
     font-weight: 549;
     text-align: left;
+    padding-left: 3vw;
     
 
 }
 
 img{
      /* width: 200px: ;   = largura*/ 
-    height: 200px ; /*altura*/
+    width: 30vw ; /*altura*/
     display: block;
+    margin: auto;
+    
 } 
+#horror{
+    margin-bottom: 5px;
+}
+
+
 
 
 div{
     border: 5px double white;
     margin-bottom: 50px;
-    padding: 50px;
+    padding: 3vh;
     text-align: center;
     margin: 10px auto;
     background-image: url('../img/fundoterror.png');
@@ -56,6 +86,7 @@ div{
     background-repeat: no-repeat;
    background-size: cover;
     background-attachment: fixed;
+    
 }
 
 #invocacao{
@@ -81,6 +112,8 @@ div{
 iframe {
     margin: auto;
     display: block;
+    height: 30vh;
+    
 }
 
 span{
@@ -88,10 +121,6 @@ span{
     font-weight: bold;
 }
 
-#horror{
-    height: 300px;
-    margin: auto;
-}
 
 #para.inicial{
     color: #000;
@@ -107,12 +136,17 @@ span{
     transform: scale(1.2);
 }
 
+main{
+    min-height: 90vh;
+}
+
 footer{
     background-color: #0f0f0f;
-    bottom: 0;
-    position: absolute;
-    width: 98vw;
-    position: fixed;i
+    /* bottom: 0; */
+    left: 0;
+    width: 100%;
+    height: 40px;
+    /* position: absolute; */
     
 
 }
@@ -133,9 +167,26 @@ footer{
 
 .ancorinhas{
     color: #FAF4FF;
+    
 }
 
 
-nav{
-    margin-top: 50px;
+
+header{
+    margin: 0;
+    background-color: #0f0f0f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px; 
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav a {
+    margin: auto 10px;
+    color: white ;
 }
