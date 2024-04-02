@@ -86,6 +86,8 @@ div{
     background-repeat: no-repeat;
    background-size: cover;
     background-attachment: fixed;
+    margin-left: 50vh;
+    margin-right: 50vh;
     
 }
 
@@ -189,4 +191,8 @@ nav {
 nav a {
     margin: auto 10px;
     color: white ;
+}
+
+#margimtitu{
+    margin-top: 40px;
 }
