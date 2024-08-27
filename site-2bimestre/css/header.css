@@ -1,0 +1,36 @@
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Nerko One", cursive;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    color: rgb(253, 46, 80);
+    background-color: rgb(250, 149, 166) ;
+    padding: 1%;
+
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 40px;
+
+
+
+}
+.nav-itens{
+    list-style: none;
+    display: flex;
+    font-size: 18px
+}
+
+.nav-itens>li>a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+
+
+}

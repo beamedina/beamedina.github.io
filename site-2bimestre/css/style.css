@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-.fotos-pm{
+.container-info-fotos{
     background-color: pink;
     border-radius: 10px;
     margin: 10px;
@@ -31,6 +31,13 @@ img{
 }
 
 h1{
-    color: rgb(253, 32, 69);
+    color: rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-size: 3;
+    
+}
+
+a{
+    display: flex;
 }
