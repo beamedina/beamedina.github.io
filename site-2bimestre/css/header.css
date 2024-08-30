@@ -1,11 +1,7 @@
-
-
-
 nav{
     display: flex;
     justify-content: space-around;
     font-family: "Nerko One", cursive;
-    margin-top: 10px;
     text-align: center;
     width: 100%;
     color: rgb(253, 46, 80);
@@ -15,11 +11,7 @@ nav{
 }
 
 .logo{
-    font-weight: 800;
-    font-size: 40px;
-
-
-
+    font-size: 50px;
 }
 .nav-itens{
     list-style: none;
@@ -29,7 +21,7 @@ nav{
 
 .nav-itens>li>a{
     padding: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 
 
