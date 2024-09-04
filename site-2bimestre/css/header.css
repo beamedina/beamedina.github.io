@@ -3,11 +3,14 @@ nav{
     justify-content: space-around;
     font-family: "Nerko One", cursive;
     text-align: center;
-    width: 100%;
     color: rgb(253, 46, 80);
     background-color: rgb(250, 149, 166) ;
     padding: 1%;
 
+}
+
+header{
+    height: 100px;
 }
 
 .logo{

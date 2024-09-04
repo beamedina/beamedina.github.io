@@ -1,9 +1,11 @@
 footer{
     background-color:  rgb(250, 149, 166);
-    height: 8vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
 }
 
 footer p{
     text-align: center;
-
+    margin: auto;
 }
