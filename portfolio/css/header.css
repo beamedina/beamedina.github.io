@@ -1,0 +1,15 @@
+nav{
+    align-items: center;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(112, 59, 59);
+
+}
+
+.nav-itens{
+    align-items: center;
+    display: flex;
+    list-style: none;
+}

@@ -48,7 +48,17 @@ img{
 .container {
     flex-grow: 1;
 }
-
+.raca {
+    width: 38vw;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.raca img {
+    display: block;
+    margin: auto;
+}
 .racageral{
     width: 38vw;
     min-width: 300px;
@@ -72,4 +82,12 @@ a{
     margin-bottom: 30px;
     font-size: 25px;
     color: black;
+}
+
+.divraca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
 }

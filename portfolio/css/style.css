@@ -5,4 +5,14 @@ body{
 
 img{
    width: 30vh; 
+   align-items: center;
+}
+
+.social{
+    width: 4vh;
+}
+
+.botao{
+    border-radius: 15px;
+    width: 100px;
 }
