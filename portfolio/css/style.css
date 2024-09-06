@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(150, 91, 91);
+    background-color: rgb(255, 177, 203);
     margin: 0;
+    height: 200;
 }
 
 img{
@@ -9,10 +10,57 @@ img{
 }
 
 .social{
-    width: 4vh;
+    width: 45px;
 }
 
 .botao{
-    border-radius: 15px;
+    border-radius: 5px;
     width: 100px;
+    background-color:rgb(250, 131, 171) ;
+    border: 2px solid white;
+    margin-left: 4px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+table{
+    height: 10%;
+    width: 20%;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+}
+
+thead{
+    background-color: rgb(104, 53, 53);
+    color: black;
+}
+
+th, td{
+    padding: 12px 15px;
+    border: 2px solid rgb(32, 24, 24);
+}
+
+ fieldset{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    width: 169px;
+}
+
+form{
+    width: 300px;
+    margin: auto;
+}
+
+button{
+    margin-left: 160px ;
+    display: block;
 }
