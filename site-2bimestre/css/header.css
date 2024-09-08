@@ -6,11 +6,13 @@ nav{
     color: rgb(253, 46, 80);
     background-color: rgb(250, 149, 166) ;
     padding: 1%;
+    box-shadow: 8px 8px 8px 8px rgba(168, 0, 0, 0.2) ;
 
 }
 
 header{
     height: 100px;
+   
 }
 
 .logo{
