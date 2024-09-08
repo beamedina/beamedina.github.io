@@ -1,8 +1,65 @@
-.div-geral{
+.div-geral {
     border: 2px dashed rgb(247, 10, 49);
     border-radius: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px; 
+    margin: 50px;
+    /* margin-left: 60px;
+    margin-right: 60px; */
+    
+    
+}
 
+
+.divisao {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.box {
+    flex: 1 1 calc(50% - 20px); 
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(255, 205, 222);
+    transition: box-shadow 0.3s ease;
+    margin: 10px; 
+    border-radius: 20px;
+}
+
+.box img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.box:hover {
+    box-shadow: 8px 8px 8px 8px rgba(168, 0, 0, 0.2); 
+}
+
+.box-index{
+    flex: 1 1 calc(50% - 20px); 
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(255, 205, 222);
+    transition: box-shadow 0.3s ease;
+    margin: 10px;
+    align-self: center;
+    border-radius: 20px;
+    margin: 10px;
+    /* width: 50vh; */
+}
+
+.box-index img {
+    height: auto;
+    /* margin-top: 10px; */
+    padding: 10px;
+}
+
+.box-index p{
+    width: 700px;
+    text-align: center;
+    margin-left: 220px;
 }

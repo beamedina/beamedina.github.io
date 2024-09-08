@@ -71,6 +71,10 @@ h1{
     font-size: 3;
     
 }
+h2{
+    font-weight: bold;
+    margin: 5px;
+}
 
 a{
     display: flex;
@@ -83,6 +87,8 @@ a{
     font-size: 25px;
     color: black;
 }
+
+
 
 .divraca{
     display: flex;

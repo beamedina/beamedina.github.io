@@ -7,6 +7,18 @@ body{
 img{
    width: 30vh; 
    align-items: center;
+   display: block;
+   margin: auto;
+   border-radius: 30px;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+p{
+    display: block;
+    
 }
 
 .social{
@@ -17,10 +29,17 @@ img{
     border-radius: 5px;
     width: 100px;
     background-color:rgb(250, 131, 171) ;
-    border: 2px solid white;
-    margin-left: 4px;
-    
+    border: 1px solid white;
+    margin-left: 6px;
 }
+
+.botao:hover{
+    box-shadow:2px 2px 2px 2px rgba(168, 0, 0, 0.2) ;
+    border: 1px solid rgb(250, 131, 171);
+    background-color: white;
+    color: rgb(247, 10, 49);
+}
+
 
 a{
     text-decoration: none;
@@ -30,7 +49,7 @@ a{
 
 table{
     height: 10%;
-    width: 20%;
+    width: 50%;
     border-collapse: collapse;
     margin: auto;
     font-size: 15px;
@@ -38,8 +57,12 @@ table{
 }
 
 thead{
-    background-color: rgb(104, 53, 53);
+    background-color: rgb(250, 144, 179);
     color: black;
+}
+
+tfoot{
+    background-color: rgb(250, 144, 179);
 }
 
 th, td{
@@ -55,14 +78,53 @@ th, td{
 
 textarea{
     width: 169px;
+    border-radius: 8px;
+    background-color: rgb(247, 206, 212);
+    border: solid 2px rgb(250, 106, 130);
+    
 }
+
+input{
+    background-color: rgb(255, 197, 206);
+    border-radius: 8px;
+    border: solid 2px rgb(250, 106, 130);
+}
+
+
 
 form{
     width: 300px;
     margin: auto;
 }
 
+::placeholder{
+    color: rgb(245, 94, 120);
+}
+
 button{
     margin-left: 160px ;
+    border-radius: 5px;
     display: block;
+    background-color:rgb(250, 131, 171) ;
+    border: 1px solid white;
+}
+
+button:hover{
+    box-shadow:2px 2px 2px 2px rgba(168, 0, 0, 0.2) ;
+    border: 1px solid rgb(250, 131, 171);
+    background-color: white;
+    color: rgb(247, 10, 49);
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+    .navegacao{
+        display: none;
+
+    }
+    .divisao{
+        
+    }
 }
