@@ -9,6 +9,8 @@
     margin: 50px;
     /* margin-left: 60px;
     margin-right: 60px; */
+     box-sizing: border-box;
+     width: 95%;
     
     
 }
@@ -33,6 +35,7 @@
 .box img {
     max-width: 100%; 
     height: auto;
+    padding: 10px;
 }
 
 .box:hover {
@@ -49,17 +52,21 @@
     align-self: center;
     border-radius: 20px;
     margin: 10px;
+    max-width: 100%;/* Adicione esta linha */
     /* width: 50vh; */
+
 }
 
 .box-index img {
     height: auto;
     /* margin-top: 10px; */
     padding: 10px;
+
 }
 
 .box-index p{
-    width: 700px;
+    width: auto;
     text-align: center;
     margin-left: 220px;
+    margin: 0 auto; 
 }

@@ -116,15 +116,13 @@ button:hover{
     color: rgb(247, 10, 49);
 }
 
-
-
-
-@media screen and (max-width: 1024px){
-    .navegacao{
-        display: none;
-
+@media screen and (max-width: 1034px){
+    header{
+        width: 100%;
     }
-    .divisao{
-        
+    footer{
+        width: 100%;
     }
 }
+
+
