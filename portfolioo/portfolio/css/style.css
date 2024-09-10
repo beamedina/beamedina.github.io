@@ -1,54 +1,56 @@
-body{
+body {
     background-color: rgb(255, 177, 203);
     margin: 0;
     height: 200;
 }
 
-img{
-   width: 30vh; 
-   align-items: center;
-   display: block;
-   margin: auto;
-   border-radius: 30px;
+img {
+    width: 30vh;
+    align-items: center;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
 }
 
-h1, h2, h3{
-    
+h1,
+h2,
+h3 {
+
     text-align: center;
 }
 
-p{
+p {
     display: block;
-    
+
 }
 
-.social{
+.social {
     width: 45px;
 }
 
-.botao{
+.botao {
     border-radius: 5px;
     width: 100px;
-    background-color:rgb(250, 131, 171) ;
+    background-color: rgb(250, 131, 171);
     border: 1px solid white;
     margin-left: 6px;
 }
 
-.botao:hover{
-    box-shadow:2px 2px 2px 2px rgba(168, 0, 0, 0.2) ;
+.botao:hover {
+    box-shadow: 2px 2px 2px 2px rgba(168, 0, 0, 0.2);
     border: 1px solid rgb(250, 131, 171);
     background-color: white;
     color: rgb(247, 10, 49);
 }
 
 
-a{
+a {
     text-decoration: none;
     color: rgb(247, 10, 49);
 }
 
 
-table{
+table {
     height: 10%;
     width: 50%;
     border-collapse: collapse;
@@ -58,66 +60,80 @@ table{
 }
 
 
-thead{
+thead {
     background-color: rgb(250, 144, 179);
     color: black;
 }
 
-tfoot{
+tfoot {
     background-color: rgb(250, 144, 179);
 }
 
-th, td{
+th,
+td {
     padding: 12px 15px;
     border: 2px solid rgb(32, 24, 24);
 }
 
- fieldset{
+fieldset {
     border: none;
     display: flex;
     justify-content: space-between;
 }
 
-textarea{
+textarea {
     width: 169px;
     border-radius: 8px;
     background-color: rgb(247, 206, 212);
     border: solid 2px rgb(250, 106, 130);
-    
+
 }
 
-input{
+input {
     background-color: rgb(255, 197, 206);
     border-radius: 8px;
     border: solid 2px rgb(250, 106, 130);
+    width: 100%;
 }
 
 
 
-form{
+form {
     width: 300px;
     margin: auto;
 }
 
-::placeholder{
+::placeholder {
     color: rgb(245, 94, 120);
 }
 
-button{
-    margin-left: 160px ;
+button {
+    margin-left: 160px;
     border-radius: 5px;
     display: block;
-    background-color:rgb(250, 131, 171) ;
+    background-color: rgb(250, 131, 171);
     border: 1px solid white;
 }
 
-button:hover{
-    box-shadow:2px 2px 2px 2px rgba(168, 0, 0, 0.2) ;
+button:hover {
+    box-shadow: 2px 2px 2px 2px rgba(168, 0, 0, 0.2);
     border: 1px solid rgb(250, 131, 171);
     background-color: white;
     color: rgb(247, 10, 49);
 }
 
 
+@media screen and (max-width: 768px) {
+    form {
+        width: 240px;
+    }
 
+    textarea {
+        width: 100px;
+        margin-left: 5px;
+    }
 
+    .field {
+        width: 100px;
+    }
+}

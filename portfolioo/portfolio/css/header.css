@@ -1,12 +1,12 @@
 header {
-    width: 100%;
+    /* width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0; */
 }
 
 nav {
     align-items: center;
-    padding: 1%;
+    padding: 1% 0;
     display: flex;
     
     justify-content: space-around;
@@ -50,17 +50,18 @@ main{
         justify-content: center;
     }
 
+
     nav {
         flex-direction: column;
         justify-content: center;
-        padding: 5%;
+        /* padding: 5%; */
         width: 100%;
         align-items: center;
     }
 
     .nav-itens {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 20px; 
         align-items: center;
     }
