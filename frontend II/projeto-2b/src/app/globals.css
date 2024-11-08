@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -41,4 +43,10 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+h1{
+  text-align: center;
+  border: dashed rgb(218, 104, 253);
+  font-family: "Sour Gummy", sans-serif;
 }

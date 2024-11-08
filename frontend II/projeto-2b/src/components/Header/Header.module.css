@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    gap: 20px;
+
+}
+
+.li{
+    align-items: center;
+}
+
+.nav{
+    align-items: center;
+    font-family: "Sour Gummy", sans-serif;
+    justify-content: right;
+}
+
+.header{
+    background-color: rgb(168, 65, 194);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
