@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import styles from "./Header.module.css";
+import Image from "next/image";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +15,8 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <h1>Music</h1>
+        <Image className={styles.img} src='/images/impressao.png' alt='Imagem do álbum do Bon Jovi' width={40} height={40} />
+        <h1 className={styles.h1}>Paris</h1>
       </div>
       <button
         className={styles.menuButton + (menuOpen ? " " + styles.open : "")}
@@ -33,11 +35,30 @@ export default function Header() {
           </li>
           <li className={styles.li}>
             <Link className={styles.link} href="/paris">
-              A Paris
+              Paris
             </Link>
           </li>
           <li className={styles.li}>
             <Link className={styles.link} href="/sobre">
+              Sobre
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <nav className={styles.navDesktop}>
+        <ul className={styles.ulDesktop}>
+          <li className={styles.liDesktop}>
+            <Link className={styles.linkDesktop} href="/">
+              Home
+            </Link>
+          </li>
+          <li className={styles.liDesktop}>
+            <Link className={styles.linkDesktop} href="/paris">
+              Paris
+            </Link>
+          </li>
+          <li className={styles.liDesktop}>
+            <Link className={styles.linkDesktop} href="/sobre">
               Sobre
             </Link>
           </li>
